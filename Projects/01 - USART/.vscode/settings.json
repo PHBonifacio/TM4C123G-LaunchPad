@@ -1,0 +1,13 @@
+{
+    "C_Cpp.intelliSenseEngineFallback": "Disabled",
+    "files.associations": {
+        "tm4c123gh6pm.h": "c",
+        "fpu.h": "c",
+        "sysctl.h": "c",
+        "core_cm4.h": "c",
+        "stdint.h": "c",
+        "pin_map.h": "c",
+        "uart.h": "c",
+        "gpio.h": "c"
+    }
+}

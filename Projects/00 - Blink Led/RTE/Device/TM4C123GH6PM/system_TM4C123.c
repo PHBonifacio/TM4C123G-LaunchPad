@@ -46,7 +46,7 @@
 // The following value is the system clock divisor.  This will be applied if
 // USESYSDIV (see below) is enabled.  The valid range of dividers is 2-16.
 //
-#define CFG_RCC_SYSDIV 5
+#define CFG_RCC_SYSDIV 4
 
 //      <q> USESYSDIV: Enable System Clock Divider
 //          <i> Check this box to use the System Clock Divider
@@ -66,7 +66,7 @@
 // PWM divider is defined by PWMDIV (see below).  If the value is 0, then
 // the PWM clock divider is not used.
 //
-#define CFG_RCC_USEPWMDIV 0
+#define CFG_RCC_USEPWMDIV 1
 
 //      <o> PWMDIV: PWM Unit Clock Divisor
 //              <0=> 0: SysClk / 2
@@ -183,7 +183,7 @@
 // Set the following value to 1 to use the RCC2 register.  The RCC2 register
 // overrides some of the fields in the RCC register if it is used.
 //
-#define CFG_RCC2_USERCC2 0
+#define CFG_RCC2_USERCC2 1
 
 //      <o> SYSDIV2: System Clock Divisor <2-64>
 //          <i> Specifies the divisor used to generate the system clock from
@@ -203,7 +203,7 @@
 // must also be set to 1.  If you are using the PLL, then this value must be
 // set to 0.
 //
-#define CFG_RCC_PWRDN2 1
+#define CFG_RCC_PWRDN2 0
 
 //      <q> BYPASS2: Bypass PLL
 //          <i> Check this box to not use the PLL for the System Clock
